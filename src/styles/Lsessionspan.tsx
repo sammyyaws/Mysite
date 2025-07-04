@@ -1,7 +1,8 @@
 import clsx from "clsx";
 
 export const Lsessionspan1=clsx(
-"text-3xl",
+"md:text-3xl",
+"text-lg",
 "text-white",
 
 
@@ -9,14 +10,16 @@ export const Lsessionspan1=clsx(
 )
 
 export const Lsessionspan2=clsx(
-"text-3xl",
+"md:text-3xl",
+"text-lg",
 "text-white",
 
 
 
 )
 export const Lsessionspan3=clsx(
-"text-5xl",
+"md:text-4xl",
+"text-xl",
 "text-mygreen-400",
 
 
@@ -25,6 +28,17 @@ export const Lsessionspan3=clsx(
 
 export const div1Text=clsx(
     "text-white",
-    "w-1/2",
-    "mt-6"
+    "text-sm",
+    "md:text-lg",
+   "md:w-[80dvh]",
+    "items-center",
+    "justify-content-center",
+    "md:w-2/3",
+    "mt-9",
+    'p-2',
+    "md:p-4",
+    
+    "rounded-xl",
+    "shadow-md",
+    "shadow-teal-500"
 )

@@ -4,6 +4,6 @@ export const Navul=clsx(
   "flex",
   "flex-row",
   "items-center",
-  
+
 
 )

@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { NavbarClass } from "../styles/NavbarClass"
-import { Navitems } from "../styles/Navitems"
+import { Navitems ,Breadcrump} from "../styles/Navitems"
 import { Navul } from "../styles/Navul"
+import { FaBarsStaggered } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function Navbar() {
@@ -31,6 +32,7 @@ useEffect(()=>{
     <li className={Navitems}>CONTACT ME</li>
   
     </ul>
+    <span className={Breadcrump}><FaBarsStaggered/></span>
     </nav>
   )
 }
