@@ -1,16 +1,30 @@
 import { skillsContainer,skillTitle, BoxContainer,aboutme} from "../styles/SkillsClass"
 import SkillBox from "./SkillBox"
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 
 function Skills() {
+
+ useEffect(()=>{
+AOS.init({
+  duration:1000,
+  once:true,
+  easing:"easing-in-out"
+});
+ },[])
+
+
   return (
     <>
        
     <div className={skillsContainer}>
- <div className={skillTitle}><span>SKILLS</span></div>
+ <div data-aos="zoom-in" className={skillTitle}><span>SKILLS</span></div>
 
 <div className={BoxContainer}>
   {/**icon 1 */}
-<SkillBox>
+<SkillBox >
   <div className="flex " >
 <img src="./assets/react.svg"/>
 </div>
@@ -65,7 +79,7 @@ function Skills() {
 
 </div>
 
-<div className={aboutme}>ABOUT ME</div>
+<div data-aos="fade-up-left" className={aboutme}>ABOUT ME</div>
     </div>
     </>
   )
