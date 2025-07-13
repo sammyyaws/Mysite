@@ -8,7 +8,7 @@ function WhoIMI() {
     
         <div >
             <span className={WhoSpan2}>
-     Hi, I’m Sammy Yaws — a passionate computer engineering student and aspiring full-stack Fintech developer with a deep curiosity for how technology shapes the world.
+     Hi, I’m Sammy Yaws — a  computer engineering student  and aspiring full-stack Fintech developer with a deep curiosity for how technology shapes the world.
      I thrive on learning new things, whether it's building web applications, exploring emerging technologies, or understanding how financial markets operate.
         </span>
         </div>
