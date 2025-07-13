@@ -1,13 +1,16 @@
 
-import Navbar from "../components/Navbar"
+
 import LandingSession from "../components/LandingSession"
-
-
-
+import WhoIMI from "../components/WhoIMI"
+import Skills from "../components/Skills"
+import Footer from "../components/Footer"
 function Home() {
   return (
-    <> <Navbar/>
+    <> 
     <LandingSession/>
+    <WhoIMI/>
+    <Skills/>
+    <Footer></Footer>
    </>
 
   )

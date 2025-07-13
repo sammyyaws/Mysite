@@ -4,7 +4,7 @@ export const Lsessionspan1=clsx(
 "md:text-3xl",
 "text-lg",
 "text-white",
-
+ "font-serif",
 
 
 )
@@ -13,7 +13,7 @@ export const Lsessionspan2=clsx(
 "md:text-3xl",
 "text-lg",
 "text-white",
-
+"w-full"
 
 
 )

@@ -41,12 +41,13 @@ AOS.init({
        </div>
          <div>
        <span className={Lsessionspan1} > I'M  A </span> 
-        <span className={Lsessionspan3} >{text1}</span> 
+        <span className={Lsessionspan3} >{text1}
+          <Cursor cursorStyle=">"/>
+          </span> 
        </div>
        <div className={div1Text}>
         <span>
-        Problem solving,buidling  and learning geared towards changing lives is the only way 
-        to keep the soul and mind alive and active.
+     “Problem-solving, building, and learning geared toward changing lives are the keys to keeping the soul and mind alive and active.”
         </span>
        </div>
        </div>

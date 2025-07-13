@@ -11,7 +11,7 @@ import clsx from "clsx";
      "justify-content-center",
     "md:mt-4",
     "mt-8",
-    "md:ml-[10dvh]"
+    "md:ml-[10dvh]",
  )
 
  export const lsessionDiv=clsx(
