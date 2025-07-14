@@ -5,8 +5,13 @@ import { Navul } from "../styles/Navul"
 import { FaBarsStaggered } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
-function Navbar() {
+import { useMenu } from "../contexts/MenuContext";
 
+
+
+
+function Navbar() {
+const {toggleMenu}=useMenu();
 useEffect(()=>{
 
   AOS.init(
@@ -32,7 +37,7 @@ useEffect(()=>{
     <li className={Navitems}>CONTACT ME</li>
   
     </ul>
-    <span className={Breadcrump}><FaBarsStaggered/></span>
+    <span onClick={toggleMenu} className={Breadcrump}><FaBarsStaggered/></span>
     </nav>
   )
 }

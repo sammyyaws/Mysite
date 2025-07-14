@@ -35,7 +35,7 @@ export const ContactCard=clsx(
     "hover:shadow-lg",
     "shadow-mygreen-100",
     "transition",
-    "delay-300"
+    "duration-250"
 )
 export const Contactbutton=clsx(
     "p-2",

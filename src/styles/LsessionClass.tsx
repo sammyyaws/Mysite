@@ -65,6 +65,6 @@ import clsx from "clsx";
   "text-2xl",
   "animate-bounce",
   "place-content-center",
-  ""
+  
 
 )

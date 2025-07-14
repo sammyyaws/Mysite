@@ -19,5 +19,7 @@ export const Breadcrump=clsx(
     "p-2",
     "shadow-sm",
     "shadow-myDark-900",
-    "hover:shadow-white"
+    "hover:shadow-white",
+    "transition",
+    "duration-250"
 )

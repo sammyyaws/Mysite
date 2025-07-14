@@ -3,6 +3,7 @@ export const AboutContanier=clsx(
 "flex",
 "flex-col",
 "w-full",
+"overflow-y-scroll",
 "min-h-screen",
 "bg-gradient-to-b",
 "from-myDark-900","items-center",

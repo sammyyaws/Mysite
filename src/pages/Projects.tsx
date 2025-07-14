@@ -22,7 +22,7 @@ AOS.init({
     <div  className={projectsCont}>
       
 {/*       projects in progress session*/}  
-      <div data-aos="fade-up-right">Projects In Progress</div>
+      <div data-aos="fade-up-right" className="text-lg md:text-2xl">Projects In Progress</div>
 <div data-aos="fade-up-left"className={SliderContainer}>
 {/*   swiper slide*/} 
  <Swiper modules={[Autoplay,Mousewheel,Pagination,Keyboard]}
@@ -54,7 +54,7 @@ keyboard
       </div>
  
  {/*       projects in progress session*/}  
-        <div data-aos="fade-up-right">Completed Projects </div>
+        <div data-aos="fade-up-right" className="text-lg md:text-2xl">Completed Projects </div>
 
 <div data-aos="fade-up-left"className={SliderContainer}>
 {/*   swiper slide*/} 

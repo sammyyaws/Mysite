@@ -73,9 +73,11 @@ AOS.init({
 {/**icon 8*/}
 <SkillBox>
   <div className="flex  ">
-    <img src="./assets/cctv.svg"/>
+    <img src="./assets/git.svg"/>
   </div>
 </SkillBox>
+{/**icon 9*/}
+
 
 </div>
 

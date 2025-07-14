@@ -44,6 +44,7 @@ function About() {
 <ProgSkills Progvalue={40} Max={100} Title="SQL" image="/assets/sql.svg"/>
 <ProgSkills Progvalue={80} Max={100} Title="HTML" image="/assets/html.svg"/>
 <ProgSkills Progvalue={88} Max={100} Title="CSS" image="/assets/css.svg"/>
+ <ProgSkills Progvalue={88} Max={100} Title="GIT" image="/assets/git.svg"/>
    
       
   </div>

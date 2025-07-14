@@ -28,9 +28,13 @@ export const SliderContainer=clsx(
     "p-2",
     "md:p-4",
     "rounded-md",
-    "shadow-lg",
+    "shadow-sm",
+    "shadow-gray-200",
     "bg-mygreen-100/30",
-    "backdrop-blur-lg"
+    "backdrop-blur-lg",
+    "hover:shadow-md",
+     "transition",
+    "duration-250"
    
 
 )
