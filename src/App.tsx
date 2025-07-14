@@ -6,6 +6,8 @@ import Projects from "./pages/Projects"
 import Contact from "./pages/Contact"
 import Menubar from "./components/Menubar"
 import { MenuProvider } from "./contexts/MenuContext"
+import { Routes,Route } from "react-router-dom"
+
 function App() {
 
 
@@ -16,11 +18,18 @@ function App() {
     <Navbar/>
     </MenuProvider>
    
-   {/*  <About/> */}
-    <Home/> 
-  {/*   <Contact/ >  */}
-  {/*    <Projects/>
-     */}
+   <Routes>
+    <Route path="/" element={  <Home/>}/>
+    <Route path="/About" element={    <About/>}/>
+    <Route path="/Contact_me" element={     <Contact/> }/>
+  <Route path="/Projects" element={     <Projects/> }/>
+ 
+   </Routes>
+  
+   
+   
+    
+    
  <Footer></Footer>
     </>
   )

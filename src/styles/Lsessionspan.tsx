@@ -28,7 +28,7 @@ export const Lsessionspan3=clsx(
 
 export const div1Text=clsx(
     "text-white",
-    "text-sm",
+    "text-md",
     "md:text-lg",
    "md:w-[80dvh]",
     "items-center",

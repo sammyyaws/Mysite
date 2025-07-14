@@ -81,7 +81,9 @@ AOS.init({
 
 </div>
 
-<div data-aos="fade-up-left" className={aboutme}>ABOUT ME</div>
+<div data-aos="fade-up-left" className={aboutme}>
+   <a href="assets/mycv.pdf" download="Adade_Samuel_Yawson_CV">DOWNLOAD CV</a> 
+             </div>
     </div>
     </>
   )

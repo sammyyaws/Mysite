@@ -6,7 +6,7 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useMenu } from "../contexts/MenuContext";
-
+import { Link } from "react-router-dom";
 
 
 
@@ -31,10 +31,22 @@ useEffect(()=>{
   return (
     <nav data-aos="flip-right" className={NavbarClass}>
   <ul className={Navul}>
-    <li className={Navitems} >HOME</li>
-    <li className={Navitems}>ABOUT</li>
-    <li className={Navitems}>PROJECT</li>
-    <li className={Navitems}>CONTACT ME</li>
+    <li className={Navitems} >
+   <Link to="/"> HOME</Link>   
+       </li>
+
+    <li className={Navitems}>
+     <Link to="/About">ABOUT </Link>    
+     </li>
+
+    <li className={Navitems}>
+     <Link to="/Projects">PROJECTS </Link>
+
+    </li>
+    <li className={Navitems}>
+   <Link to="/Contact_me">CONTACT </Link>
+      
+      </li>
   
     </ul>
     <span onClick={toggleMenu} className={Breadcrump}><FaBarsStaggered/></span>

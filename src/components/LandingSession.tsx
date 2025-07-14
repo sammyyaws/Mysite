@@ -42,7 +42,7 @@ AOS.init({
          <div>
        <span className={Lsessionspan1} > I'M  A </span> 
         <span className={Lsessionspan3} >{text1}
-          <Cursor cursorStyle=">"/>
+          <Cursor cursorStyle="|"/>
           </span> 
        </div>
        <div className={div1Text}>
