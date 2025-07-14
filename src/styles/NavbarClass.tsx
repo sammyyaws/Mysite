@@ -2,7 +2,8 @@ import clsx from "clsx";
 
 export const NavbarClass=clsx(
     "md:p-4",
-  'h-[10dvh]',
+  'h-[8dvh]',
+  
   "md:h-1/5",
   "shadow-md",
   "shadow-mygreen-100",
@@ -11,7 +12,8 @@ export const NavbarClass=clsx(
   "bg-mygreen-400/50",
   "items-center",
   "justify-item-center",
-  "w-[70dvh]",
+  "md:w-[70dvh]",
+  "w-[60dvh]",
   "md:w-fit",
   "md:px-6",
   "mx-auto",
