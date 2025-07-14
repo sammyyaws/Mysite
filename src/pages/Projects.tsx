@@ -31,7 +31,7 @@ mousewheel
 pagination
 keyboard
  autoplay={{
-  delay:5500,
+  delay:4500,
    disableOnInteraction:false
  }}
   spaceBetween={20}  slidesPerView={1}
@@ -40,11 +40,11 @@ keyboard
    
    <SwiperSlide><ProjectCard ProTitle="BackTrace" image="assets/back.png" 
    Description="An all in one charting web app,
-    being developed with lightweight charts, react js and tailwind for frontend, 
+    being developed with lightweight charts, React JS and Tailwind for frontend, 
    And Django for the backend"/></SwiperSlide>
 <SwiperSlide><ProjectCard ProTitle="Vididy " image="assets/vididy.svg" 
    Description="An outstanding youtube video downloader web app,
-    being developed  with react js and tailwind for frontend, 
+    being developed  with React JS and Tailwind for frontend, 
    And Django for the backend, Inspired by the stress i go in to download courses from youtube to my device storage"/></SwiperSlide>
     
 
