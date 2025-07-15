@@ -1,32 +1,30 @@
 import clsx from "clsx";
 
 export const NavbarClass=clsx(
-    "md:p-4",
-  'h-[8dvh]',
-  
-  "md:h-1/5",
-  "shadow-md",
-  "shadow-mygreen-100",
-  "flex",
-  "text-white",
-  "bg-mygreen-400/50",
+    "flex",
   "items-center",
-  "justify-item-center",
-  "md:w-[70dvh]",
-  "w-[60dvh]",
-  "md:w-fit",
-  "md:px-6",
+  "justify-center",
   "mx-auto",
+  "max-w-2xl",        
+  "w-full",           
+  "px-4",             
+  "md:px-6",          
+  "py-5",
+  "bg-mygreen-400/60",
+  "text-white",
   "font-serif",
   "font-bold",
   "rounded-md",
-  'border-1',
+  "border",
   "border-mygreen-400",
-  "mt-2",
+  "shadow-md",
   "hover:shadow-lg",
-  "delay-50",
   "transition",
   "duration-200",
   "ease-in-out",
-  "sticky"
+  "sticky",
+  "top-0",
+  "z-50",
+  "mt-2"
+
 )

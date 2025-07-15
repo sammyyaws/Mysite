@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { CgSlack } from "react-icons/cg";
+
 
 export const Navitems=clsx(
     'px-6',

@@ -1,6 +1,6 @@
 import type { ProjectSlidesProps } from "../types/ProjectTypes"
 import { imageCard,pDescription,Ptext,ptitle,slideContent  } from "../styles/ProjectClass"
-import { Progimage } from "../styles/AboutClass"
+
 
 function ProjectCard({image,ProTitle,Description}:ProjectSlidesProps) {
   return (
