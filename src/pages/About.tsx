@@ -45,6 +45,7 @@ function About() {
 <ProgSkills Progvalue={80} Max={100} Title="HTML" image={`${import.meta.env.BASE_URL}assets/html.svg`} />
 <ProgSkills Progvalue={88} Max={100} Title="CSS" image={`${import.meta.env.BASE_URL}assets/css.svg`} />
 <ProgSkills Progvalue={88} Max={100} Title="GIT" image={`${import.meta.env.BASE_URL}assets/git.svg`} />
+<ProgSkills Progvalue={88} Max={100} Title="JAVASCRIPT" image={`${import.meta.env.BASE_URL}assets/js.svg`} />
 
       
   </div>
