@@ -17,7 +17,7 @@ function App() {
   <Menubar/>
     <Navbar/>
     </MenuProvider>
-   <Home/>
+  
    <Routes>
     <Route path="/" element={  <Home/>}/>
     <Route path="/About" element={    <About/>}/>

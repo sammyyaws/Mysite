@@ -26,54 +26,54 @@ AOS.init({
   {/**icon 1 */}
 <SkillBox >
   <div className="flex " >
-<img src="./assets/react.svg"/>
+<img src="/assets/react.svg"/>
 </div>
 </SkillBox>
 {/**icon 2*/}
 
 <SkillBox>
   <div className="flex ">
-    <img src="./assets/tailwind.svg"/>
+    <img src="/assets/tailwind.svg"/>
   </div>
 </SkillBox>
 
 {/**icon 3 */}
 <SkillBox>
   <div className="flex ">
-    <img  src="./assets/html.svg"/>
+    <img  src="/assets/html.svg"/>
   </div>
 </SkillBox>
 
 {/**icon 4 */}
 <SkillBox>
   <div className="flex ">
-    <img src="./assets/css.svg"/>
+    <img src="/assets/css.svg"/>
   </div>
 </SkillBox>
 
 {/**icon 5 */}
 <SkillBox>
   <div className="flex ">
-    <img src="./assets/c.svg"/>
+    <img src="/assets/c.svg"/>
   </div>
 </SkillBox>
 {/**icon 6*/}
 <SkillBox>
   <div className="flex ">
-    <img src="./assets/python.svg"/>
+    <img src="/assets/python.svg"/>
   </div>
 </SkillBox>
 
 {/**icon 7*/}
 <SkillBox>
   <div className="flex  ">
-    <img src="./assets/sql.svg"/>
+    <img src="/assets/sql.svg"/>
   </div>
 </SkillBox>
 {/**icon 8*/}
 <SkillBox>
   <div className="flex  ">
-    <img src="./assets/git.svg"/>
+    <img src="/assets/git.svg"/>
   </div>
 </SkillBox>
 {/**icon 9*/}
