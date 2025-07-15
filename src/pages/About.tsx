@@ -36,16 +36,16 @@ function About() {
   <div data-aos="fade-up-right"className={progSkillTitle}>MY SKILLS</div>
  <div className={Aboutskill}>
  
-<ProgSkills  Progvalue={60}  Max={100} Title="React" image="/assets/react.svg"/>
-<ProgSkills Progvalue={50}  Max={100}Title="Tailwind" image="/assets/tailwind.svg"/>
-<ProgSkills Progvalue={40} Max={100} Title="Django" image="/assets/django2.svg"/>
-<ProgSkills Progvalue={35} Max={100} Title="C++" image="/assets/c.svg"/>
-<ProgSkills Progvalue={55} Max={100} Title="Python" image="/assets/python.svg"/>
-<ProgSkills Progvalue={40} Max={100} Title="SQL" image="/assets/sql.svg"/>
-<ProgSkills Progvalue={80} Max={100} Title="HTML" image="/assets/html.svg"/>
-<ProgSkills Progvalue={88} Max={100} Title="CSS" image="/assets/css.svg"/>
- <ProgSkills Progvalue={88} Max={100} Title="GIT" image="/assets/git.svg"/>
-   
+<ProgSkills Progvalue={60} Max={100} Title="React" image={`${import.meta.env.BASE_URL}assets/react.svg`} />
+<ProgSkills Progvalue={50} Max={100} Title="Tailwind" image={`${import.meta.env.BASE_URL}assets/tailwind.svg`} />
+<ProgSkills Progvalue={40} Max={100} Title="Django" image={`${import.meta.env.BASE_URL}assets/django2.svg`} />
+<ProgSkills Progvalue={35} Max={100} Title="C++" image={`${import.meta.env.BASE_URL}assets/c.svg`} />
+<ProgSkills Progvalue={55} Max={100} Title="Python" image={`${import.meta.env.BASE_URL}assets/python.svg`} />
+<ProgSkills Progvalue={40} Max={100} Title="SQL" image={`${import.meta.env.BASE_URL}assets/sql.svg`} />
+<ProgSkills Progvalue={80} Max={100} Title="HTML" image={`${import.meta.env.BASE_URL}assets/html.svg`} />
+<ProgSkills Progvalue={88} Max={100} Title="CSS" image={`${import.meta.env.BASE_URL}assets/css.svg`} />
+<ProgSkills Progvalue={88} Max={100} Title="GIT" image={`${import.meta.env.BASE_URL}assets/git.svg`} />
+
       
   </div>
 
@@ -53,9 +53,8 @@ function About() {
   <div className={progSkillTitle}>OTHER SKILLS</div>
  <div className={Aboutskill}>
  
-<ProgSkills Progvalue={60}  Max={100} Title="CCTV Installation and maintenance" image="/assets/cctv.svg"/>
-<ProgSkills Progvalue={90}  Max={100}Title="Problem Solving" image="/assets/psolve.svg"/>
-
+<ProgSkills Progvalue={60} Max={100} Title="CCTV Installation and maintenance" image={`${import.meta.env.BASE_URL}assets/cctv.svg`} />
+<ProgSkills Progvalue={90} Max={100} Title="Problem Solving" image={`${import.meta.env.BASE_URL}assets/psolve.svg`} />
       
   </div>
 

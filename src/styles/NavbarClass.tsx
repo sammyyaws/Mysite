@@ -10,7 +10,7 @@ export const NavbarClass=clsx(
   "px-4",             
   "md:px-6",          
   "py-5",
-  "bg-mygreen-400/60",
+  "bg-mygreen-400/80",
   "text-white",
   "font-serif",
   "font-bold",
