@@ -22,8 +22,11 @@ export const SliderContainer=clsx(
     "flex",
     "items-center",
     "justify-center",
-    "md:w-[100dvh]",
-    "w-[60dvh]",
+    "mx-auto",          
+     "max-w-xl", 
+     "xl:max-w-2xl",         
+   "w-full", 
+    
     "h-fit",
     "p-2",
     "md:p-4",
