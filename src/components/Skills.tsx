@@ -26,54 +26,54 @@ AOS.init({
   {/**icon 1 */}
 <SkillBox >
   <div className="flex " >
-<img src="/assets/react.svg"/>
+<img src={`${import.meta.env.BASE_URL}assets/react.svg`}/>
 </div>
 </SkillBox>
 {/**icon 2*/}
 
 <SkillBox>
   <div className="flex ">
-    <img src="/assets/tailwind.svg"/>
+    <img src={`${import.meta.env.BASE_URL}assets/tailwind.svg`}/>
   </div>
 </SkillBox>
 
 {/**icon 3 */}
 <SkillBox>
   <div className="flex ">
-    <img  src="/assets/html.svg"/>
+    <img  src={`${import.meta.env.BASE_URL}assets/html.svg`}/>
   </div>
 </SkillBox>
 
 {/**icon 4 */}
 <SkillBox>
   <div className="flex ">
-    <img src="/assets/css.svg"/>
+    <img src={`${import.meta.env.BASE_URL}assets/css.svg`}/>
   </div>
 </SkillBox>
 
 {/**icon 5 */}
 <SkillBox>
   <div className="flex ">
-    <img src="/assets/c.svg"/>
+    <img src={`${import.meta.env.BASE_URL}assets/c.svg`}/>
   </div>
 </SkillBox>
 {/**icon 6*/}
 <SkillBox>
   <div className="flex ">
-    <img src="/assets/python.svg"/>
+    <img src={`${import.meta.env.BASE_URL}assets/python.svg`}/>
   </div>
 </SkillBox>
 
 {/**icon 7*/}
 <SkillBox>
   <div className="flex  ">
-    <img src="/assets/sql.svg"/>
+    <img src={`${import.meta.env.BASE_URL}assets/sql.svg`}/>
   </div>
 </SkillBox>
 {/**icon 8*/}
 <SkillBox>
   <div className="flex  ">
-    <img src="/assets/git.svg"/>
+    <img src={`${import.meta.env.BASE_URL}assets/git.svg`}/>
   </div>
 </SkillBox>
 {/**icon 9*/}
@@ -82,7 +82,7 @@ AOS.init({
 </div>
 
 <div data-aos="fade-up-left" className={aboutme}>
-   <a href="assets/mycv.pdf" download="Adade_Samuel_Yawson_CV">DOWNLOAD CV</a> 
+   <a href={`${import.meta.env.BASE_URL}assets/mycv.pdf`} download="Adade_Samuel_Yawson_CV">DOWNLOAD CV</a>
              </div>
     </div>
     </>
